@@ -1,9 +1,9 @@
 :root {
     --body: #e8e8ee;
-    --bodysize: 1rem;
+    --bodysize: 15px;
     --bodyheight: 1.5rem;
     --pfamily: 'AdorshoLipi', Arial, sans-serif;
-    --text: #222;
+    --text: #333;
     --primary: #005771;
     --secondary: #8D2A2A;
     --gray: #e8e8e8;

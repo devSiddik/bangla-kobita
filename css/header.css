@@ -1,0 +1,46 @@
+header {
+    justify-content: space-between;
+    margin-top: 5px;
+}
+header .logo .img{
+    width: 264px;
+    height: 80px;
+}
+header .header-right .registration{
+    margin-top: 6px;
+}
+header .header-right .registration i {
+    color: var(--primary);
+}
+header .header-right .registration a{
+    color: var(--primary);
+}
+header .header-right .login i{
+    color: var(--primary);
+    font-size: 16px;
+}
+header .header-right .login {
+    margin: 0 30px 0 20px;
+    margin-top: 6px;
+}
+header .header-right .login a{
+    color: var(--primary);
+}
+header .header-right .login a{
+    color: var(--primary);
+}
+header .header-right .social-icon i {
+    color: var(--primary);
+    font-size: 32px;
+    margin-left: 10px;
+}
+header .header-right .social-icon .fa-facebook{
+    color: var(--facebook);
+}
+header .header-right .social-icon .fa-twitter{
+    color: var(--twitter);
+}
+header .header-right .social-icon .fa-youtube{
+    color: var(--google);
+}
+
