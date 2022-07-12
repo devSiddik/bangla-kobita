@@ -1,13 +1,13 @@
 .navbar{
-    padding: 0;
-    background-color: var(--secondary);
-    height: 30px;
-    margin-top: 20px;
+    padding: 0px 0;
+    background-color: var(--primary);
+    /* height: 30px; */
+    margin-top: 10px;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
 }
 .navbar .navbar-nav{
-    margin-top: -8px;
+    margin-top: -0px;
 }
 .navbar .navbar-nav .nav-item .nav-link{
     padding: 8px 13px;
@@ -24,9 +24,9 @@
 .navbar .navbar-nav .nav-item:first-child .nav-link{
     border-top-left-radius: 8px;
 }
-.navbar .navbar-nav .nav-item:last-child .nav-link{
+/* .navbar .navbar-nav .nav-item:last-child .nav-link{
     border-top-right-radius: 8px;
-}
+} */
 .navbar .todays-date{
     margin-right: 15px;
 }
