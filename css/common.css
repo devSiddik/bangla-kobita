@@ -83,6 +83,12 @@ input:focus,button:focus {outline: none; box-shadow: none;}
 .main-content .content-left h2{
     margin-top: 10px;
 }
+.index-content .content-left h2{
+    margin-top: 40px !important;
+}
+.kobitar-asor-content .content-left .new-poem h2{
+    margin-top: 30px;
+}
 .main-content .achievement h2 {
     margin-top: 10px;
 }
@@ -225,4 +231,19 @@ input:focus,button:focus {outline: none; box-shadow: none;}
 }
 .bootstrap-pagination ul li.active a:hover{
     color: var(--white) !important;
+}
+
+
+/* ads css */
+.ads-80px{
+    width: 100%;
+    height: 80px;
+}
+.ads-100px{
+    width: 100%;
+    height: 100px;
+}
+.ads-200px{
+    width: 100%;
+    height: 200px;
 }
