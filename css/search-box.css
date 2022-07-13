@@ -4,6 +4,7 @@
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     padding: 5px 10px;
+    margin-top: 2px;
 }
 .main-content .search-box>p {
     font-size: 16px;
