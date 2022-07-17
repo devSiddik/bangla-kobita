@@ -59,6 +59,9 @@
 .kobitar-asor-content .detail-list a:hover{
     color: var(--white) !important;
 }
+.khetiman-kobi-content .new-poem tr .serial{
+    padding-left: 9px !important;
+}
 
 /*---------------------------------
            FAMOUS WRITER CSS
