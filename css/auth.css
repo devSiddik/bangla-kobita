@@ -37,6 +37,19 @@
     display: inline-block;
     border-radius: 4px;
 }
+.auth-content .auth-body .add-poem-instruction {
+    background-color: #d9ede7;
+    color: #6284bb;
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 4px;
+}
+.auth-content .add-poem-instruction .click-here-btn{
+    color: #6284bb !important;
+}
+.auth-content .add-poem-instruction .click-here-btn:hover{
+    color: #6284bb !important;
+}
 .auth-content .auth-body .register-instruction {
     display: inline-block;
     padding: 10px 10px;
@@ -44,4 +57,42 @@
     border-radius: 5px;
     color: #8a6d3b;
     text-align: justify;
+}
+.auth-content .category-box {
+    border: 1px solid lightgray;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+.auth-content .check-spelling{
+    text-align: right;
+    padding: 3px 5px !important;
+    font-size: 12px;
+    float: right;
+    border-radius: 3px !important;
+}
+.auth-content .active-member-list {
+    padding: 4px 0px;
+    text-align: center;
+    margin: 0 10px !important;
+    width: 94% !important;
+    border-radius: 5px;
+    background-color: var(--primary);
+    color: var(--white);
+}
+.auth-content .rules ul {
+    background-color: transparent;
+}
+.auth-content .rules ul li {
+    margin: 25px 0;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.auth-content .rules ul li i {
+    font-size: 7px;
+    margin-top: -7px;
+}
+.auth-content .rules ul li span {
+    margin-top: -14px;
+    margin-left: 10px;
 }

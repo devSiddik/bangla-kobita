@@ -37,11 +37,6 @@
 .profile-content .poem-search span{
     color: var(--primary);
 }
-.profile-content .poem-search .select select {
-    padding: 3px;
-    border-radius: 5px;
-    border: 1px solid lightgray;
-}
 .profile-content .poem-search button {
     border: none;
     background-color: var(--primary);
@@ -112,7 +107,7 @@
     background-repeat: no-repeat;
     background-position: center;
   }
-
+/* end profile upload css */
 .profile-content .unique-username{
     opacity: 0.5;
     float: right;
