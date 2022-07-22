@@ -44,6 +44,14 @@ input,button {outline: none; }
 input:focus,button:focus {outline: none; box-shadow: none;}
 .form-check-input:focus { box-shadow: none; }
 
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: var(--primary-bshadow);
+}
+
 .pl-0{ padding-left: 0; }
 .pr-0{ padding-right: 0; }
 .ml-0{ margin-left: 0; }

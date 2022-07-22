@@ -141,63 +141,335 @@
             <div class="content-left">
 
               <!---------- PAGE DESCRIPTION ----------->
-              <h1>লগইন</h1>
+              <h1>মোঃ আমির হোসেন</h1>
+              <div class="row">
+                <div class="col-lg-4">
+                    <div class="avatar-upload">
+                        <div class="avatar-edit">
+                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                            <label for="imageUpload"></label>
+                        </div>
+                        <div class="avatar-preview">
+                            <div id="imagePreview" style="background-image: url(http://i.pravatar.cc/500?img=7);">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <table class="table table-striped">
+                        <p class="unique-username">@amirhossain7287</p>
+                        <tbody>
+                            <tr>
+                                <td><b>জন্ম তারিখ</b></td>
+                                <td>১৩ অক্টোবর</td>
+                            </tr> 
+
+                            <tr>
+                                <td><b>জন্মস্থান</b></td>
+                                <td>কুমিল্লা, বাংলাদেশ</td>
+                            </tr>  
+
+                            <tr>
+                                <td><b>বর্তমান নিবাস</b></td>
+                                <td>ঢাকা, বাংলাদেশ</td>
+                            </tr>  
+
+                            <tr>
+                                <td><b>পেশা</b></td>
+                                <td>ফ্রিল্যান্সার</td>
+                            </tr>   
+
+                            <tr>
+                                <td><b>শিক্ষাগত যোগ্যতা</b></td>
+                                <td>স্নাতক</td>
+                            </tr>    
+                        </tbody>
+                      </table>
+                </div>
+              </div>
               <div class="text-justify page-description">
-                নিচে আপনার লগইন নাম ও পাসওয়ার্ড দিয়ে লগইন করুন। ইতিমধ্যে আমাদের সদস্য না হয়ে থাকলে সদস্য হিসাবে রেজিস্ট্রেশন করুন।
+                মোঃ আমির হোসেন, কুমিল্লার জেলার হোমনা উপজেলায় এক সম্ভ্রান্ত মুসলিম পরিবারে জন্ম। বাবা সামছুল হক মোল্লা ও মা সিদ্দিকা বেগম। দুই ভাই তিন বোনের মধ্যে তিনি তৃতীয়। স্থানীয় বিদ্যালয়, উচ্চ বিদ্যালয় ও কলেজ থেকে স্নাতক ডিগ্রি লাভ করেন। প্রাথমিক বিদ্যালয়ে শিক্ষকতার মাধ্যমে পেশা জীবন শুরু হলেও তিন বছর পর শিক্ষকতা ছেড়ে দিয়ে গ্রাফিক্স ডিজাইনার হিসেব পেশা জীবন শুরু করেন। বর্তমানে তিনি একজন পেশাদার ফ্রিল্যান্সার। তিনি প্রবন্ধ, ছোটগল্প ও কবিতা লিখেন। মোঃ আমির হোসেন ২ বছর ২ মাস হলো বাংলা-কবিতায় আছেন।
               </div>
 
-              <div class="auth-body">
-                <div class="row my-3">
-                  <div class="col-lg-4">
-                      <p class="text-end">লগইন নাম</p>
-                  </div>
-                  <div class="col-lg-8">
-                    <input type="text" class="form-control input" placeholder="">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-4">
-                    <p class="text-end">পাসওয়ার্ড</p>
-                  </div>
-                  <div class="col-lg-8">
-                    <input type="text" class="form-control input" placeholder="">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-4"></div>
-                  <div class="col-lg-8 d-flex">
-                      <input type="checkbox" name="checkbox">
-                      <p style="margin-left: 5px;">মনে রাখবো?</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-4"></div>
-                  <div class="col-lg-8">
-                      <a href="javascript:void(0)">লগইন</a>
-                  </div>
-                </div>
-              </div>
-              
-              <h2>আপনার পাসওয়ার্ড ভুলে গেছেন?</h2>
-              <div class="text-justify page-description">
-                নিচে আপনার ইমেইল এড্রেসটি দিন। আপনার ভুলে যাওয়া পাসওয়ার্ডটি আপনার ইমেইলে পাঠানো হবে।
-              </div>
 
-              <div class="auth-body">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <p class="text-end">ইমেইল</p>
+              <!---------- NEW ADDED ----------->
+              <div class="new-added my-5">
+                  <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
+                        role="tab" aria-controls="nav-home" aria-selected="true">কবিতা
+                      </button>
+                      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
+                        role="tab" aria-controls="nav-profile" aria-selected="false">আবৃত্তি
+                      </button>
+                      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button"
+                        role="tab" aria-controls="nav-contact" aria-selected="false">আলোচনা
+                      </button>
+                      <button class="nav-link" id="nav-discuss-tab" data-bs-toggle="tab" data-bs-target="#nav-discuss" type="button"
+                        role="tab" aria-controls="nav-discuss" aria-selected="false">বই
+                      </button>
+                    </div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="new-poem">
+                            <p class="py-3">এখানে মোঃ আমির হোসেন-এর ৩৪৩টি কবিতা পাবেন।</p>
+                            <a href="javascript:void(0)" class="add-new-poem-btn"><i class="fas fa-plus-circle"></i> নতুন কবিতা</a>
+
+                            <div class="poem-search mb-3">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">অভ্র</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" checked>
+                                    <label class="form-check-label" for="inlineRadio2">ইউনিজয়</label>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <div class="input">
+                                        <input type="text" placeholder="নির্দিষ্ট কবিতা খুঁজছেন" class="form-control">
+                                        <button>
+                                            <i class="fas fa-search"></i>সার্চ করুন
+                                        </button>
+                                    </div>
+
+                                    <div class="select">
+                                        <span>ক্রমানুসার:</span>
+                                        <select name="">
+                                            <option value="">নাম</option>
+                                            <option value="">তারিখ</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th scope="col" width="15%">তারিখ</th>
+                                  <th scope="col" width="45%">শিরোনাম</th>
+                                  <th scope="col" width="15%" class="text-end">মন্তব্য</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                    <td>১৯/৬/২০২২</td>
+                                    <td class="subject"><a href="javascript:void(0)">আসরে প্রকাশিত কবিতা এবং আলোচনা নিয়ে গ্রন্থ প্রকাশনার পরিকল্পনা</a></td>
+                                    <td class="text-end">৭</td>
+                                  </tr>  
+                                  <tr>
+                                    <td>১৯/৬/২০২২</td>
+                                    <td class="subject"><a href="javascript:void(0)">দীঘায় বাংলা কবিতা ডট কমের ১৪ই আগস্টের সাহিত্য সভায় যোগদানে আগ্রহী কবি বন্ধুদের নামের তালিকা।</a></td>
+                                    <td class="text-end">৭</td>
+                                  </tr>
+                                  <tr>
+                                    <td>১৯/৬/২০২২</td>
+                                    <td class="subject"><a href="javascript:void(0)">কিছুই দেখার নেই</a></td>
+                                    <td class="text-end">৭</td>
+                                  </tr>
+                                  <tr>
+                                    <td>১৯/৬/২০২২</td>
+                                    <td class="subject"><a href="javascript:void(0)">গোলাপের কাঁটা</a></td>
+                                    <td class="text-end">৭</td>
+                                  </tr>
+                                  <tr>
+                                    <td>১৯/৬/২০২২</td>
+                                    <td class="subject"><a href="javascript:void(0)">তোমার মুখের মতো চাঁদ</a></td>
+                                    <td class="text-end">৭</td>
+                                  </tr>
+                                  <tr>
+                                    <td>১৯/৬/২০২২</td>
+                                    <td class="subject"><a href="javascript:void(0)">বৃদ্ধা</a></td>
+                                    <td class="text-end">৭</td>
+                                  </tr>
+                                  <tr>
+                                    <td>১৯/৬/২০২২</td>
+                                    <td class="subject"><a href="javascript:void(0)">সে যেন আমার চেয়ে বেশিদিন বাঁচে</a></td>
+                                    <td class="text-end">৭</td>
+                                  </tr>
+                                  <tr>
+                                    <td>১৯/৬/২০২২</td>
+                                    <td class="subject"><a href="javascript:void(0)">রুবাইয়াৎ-ই-ওমর খৈয়াম ৩১ - ৩৫</a></td>
+                                    <td class="text-end">৭</td>
+                                  </tr>
+                                  <tr>
+                                    <td>১৯/৬/২০২২</td>
+                                    <td class="subject"><a href="javascript:void(0)">রুবাইয়াৎ-ই-ওমর খৈয়াম ২৬ - ৩০</a></td>
+                                    <td class="text-end">৭</td>
+                                  </tr>
+                                  <tr>
+                                    <td>১৯/৬/২০২২</td>
+                                    <td class="subject"><a href="javascript:void(0)">যেভাবে যায়, সক্কলে যায়</a></td>
+                                    <td class="text-end">৭</td>
+                                  </tr>
+                              </tbody>
+                            </table>
+            
+            
+                            <!-------- PAGINATION -------->
+                            <nav aria-label="Page navigation example" class="bootstrap-pagination">
+                              <ul class="pagination">
+                                <li class="page-item disabled">
+                                  <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                  </a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="#">১</a></li>
+                                <li class="page-item"><a class="page-link" href="#">২</a></li>
+                                <li class="page-item"><a class="page-link" href="#">৩</a></li>
+                                <li class="page-item"><a class="page-link" href="#">৪</a></li>
+                                <li class="page-item"><a class="page-link" href="#">৫</a></li>
+                                <li class="page-item">
+                                  <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </nav>
+            
+                          </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                      <div class="mt-3">
+                        আপনার কবিতায় আপনি যে কারও কণ্ঠের আবৃত্তি যোগ করতে পারেন। সেক্ষেত্রে কবিতাটি সম্পাদনা করে আবৃত্তির ইউটিউবের লিঙ্ক দিতে হবে সেখানে। এছাড়াও অন্য যে কারও কবিতায় আপনি আপনার নিজ কণ্ঠের আবৃত্তি যোগ করতে পারেন। সেজন্য কবিতাটির পাতায় গিয়ে "কবিতাটির আবৃত্তি যোগ করুন" নামক লিঙ্কে ক্লিক করতে হবে। শুধুমাত্র আপনার কণ্ঠের আবৃত্তিগুলো এখানে দেখাবে।
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <div class="new-poem">
+                            <p class="py-3">এখানে মোঃ আমির হোসেন-এর ৩৪৩টি কবিতা পাবেন।</p>
+                            <a href="javascript:void(0)" class="add-new-poem-btn"><i class="fas fa-plus-circle"></i> নতুন আলোচনা</a>
+                        </div>
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">শিরোনাম</th>
+                            <th scope="col">আবৃত্তিকার</th>
+                            <th scope="col" class="text-end">মন্তব্য</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">আরতির থালা তসবির মালা</a></td>
+                              <td class="writer"><a href="javascript:void(0)">কাজী নজরুল ইসলাম</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>  
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">এলিয়টকে চৌদ্দপঙক্তি</a></td>
+                              <td class="writer"><a href="javascript:void(0)">আবিদ আনোয়ার</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">কিছুই দেখার নেই</a></td>
+                              <td class="writer"><a href="javascript:void(0)">মোহাম্মদ রফিকউজ্জামান</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">গোলাপের কাঁটা</a></td>
+                              <td class="writer"><a href="javascript:void(0)">অসীম সাহা</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">তোমার মুখের মতো চাঁদ</a></td>
+                              <td class="writer"><a href="javascript:void(0)">অসীম সাহা</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">বৃদ্ধা</a></td>
+                              <td class="writer"><a href="javascript:void(0)">নির্মলেন্দু গুণ</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">সে যেন আমার চেয়ে বেশিদিন বাঁচে</a></td>
+                              <td class="writer"><a href="javascript:void(0)">নির্মলেন্দু গুণ</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">রুবাইয়াৎ-ই-ওমর খৈয়াম ৩১ - ৩৫</a></td>
+                              <td class="writer"><a href="javascript:void(0)">কাজী নজরুল ইসলাম</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">রুবাইয়াৎ-ই-ওমর খৈয়াম ২৬ - ৩০</a></td>
+                              <td class="writer"><a href="javascript:void(0)">কাজী নজরুল ইসলাম</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">যেভাবে যায়, সক্কলে যায়</a></td>
+                              <td class="writer"><a href="javascript:void(0)">শক্তি চট্টোপাধ্যায়</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane fade" id="nav-discuss" role="tabpanel" aria-labelledby="nav-discuss-tab">
+                        <div class="new-poem">
+                            <p class="py-3">এখানে মোঃ আমির হোসেন-এর ৩৪৩টি কবিতা পাবেন।</p>
+                            <a href="javascript:void(0)" class="add-new-poem-btn"><i class="fas fa-plus-circle"></i> নতুন বই</a>
+                        </div>
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">শিরোনাম</th>
+                            <th scope="col">লেখক</th>
+                            <th scope="col" class="text-end">মন্তব্য</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">আরতির থালা তসবির মালা</a></td>
+                              <td class="writer"><a href="javascript:void(0)">কাজী নজরুল ইসলাম</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>  
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">এলিয়টকে চৌদ্দপঙক্তি</a></td>
+                              <td class="writer"><a href="javascript:void(0)">আবিদ আনোয়ার</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">কিছুই দেখার নেই</a></td>
+                              <td class="writer"><a href="javascript:void(0)">মোহাম্মদ রফিকউজ্জামান</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">গোলাপের কাঁটা</a></td>
+                              <td class="writer"><a href="javascript:void(0)">অসীম সাহা</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">তোমার মুখের মতো চাঁদ</a></td>
+                              <td class="writer"><a href="javascript:void(0)">অসীম সাহা</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">বৃদ্ধা</a></td>
+                              <td class="writer"><a href="javascript:void(0)">নির্মলেন্দু গুণ</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">সে যেন আমার চেয়ে বেশিদিন বাঁচে</a></td>
+                              <td class="writer"><a href="javascript:void(0)">নির্মলেন্দু গুণ</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">রুবাইয়াৎ-ই-ওমর খৈয়াম ৩১ - ৩৫</a></td>
+                              <td class="writer"><a href="javascript:void(0)">কাজী নজরুল ইসলাম</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">রুবাইয়াৎ-ই-ওমর খৈয়াম ২৬ - ৩০</a></td>
+                              <td class="writer"><a href="javascript:void(0)">কাজী নজরুল ইসলাম</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                            <tr>
+                              <td class="subject"><a href="javascript:void(0)">যেভাবে যায়, সক্কলে যায়</a></td>
+                              <td class="writer"><a href="javascript:void(0)">শক্তি চট্টোপাধ্যায়</a></td>
+                              <td class="text-end">৭</td>
+                            </tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
-                  <div class="col-lg-8">
-                    <input type="text" class="form-control input" placeholder="">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-4"></div>
-                  <div class="col-lg-8">
-                      <a href="javascript:void(0)">পাসওয়ার্ডটি ইমেইল করুন</a>
-                  </div>
-                </div>
               </div>
 
 
@@ -352,6 +624,9 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>
   <script src="js/script.js"></script>
+  <script src="js/profile.js"></script>
+
+
 
 </body>
 </html>
