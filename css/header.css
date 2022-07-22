@@ -17,6 +17,24 @@ header .header-right .registration i {
 header .header-right .registration a{
     color: var(--primary);
 }
+header .header-right .logout {
+    margin: 6px 20px;
+}
+header .header-right .logout i {
+    color: var(--primary);
+}
+header .header-right .logout a{
+    color: var(--primary);
+}
+header .header-right .your-page{
+    margin-top: 6px;
+}
+header .header-right .your-page i {
+    color: var(--primary);
+}
+header .header-right .your-page a{
+    color: var(--primary);
+}
 header .header-right .login i{
     color: var(--primary);
     font-size: 16px;

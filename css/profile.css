@@ -1,0 +1,23 @@
+.profile-content .active-member-list {
+    margin: 5px 11px !important;
+    width: 93% !important;
+}
+.profile-content .tarunno-blog {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #fcf8e3;
+    border-radius: 5px;
+    color: #8a6d3b;
+    text-align: justify;
+    margin: 0 12px;
+}
+.profile-content .click-here-btn{
+    text-decoration: underline; 
+    background-color: transparent !important; 
+    padding: 0 !important; 
+    color: #8a6d3b !important;
+    margin-top: 0 !important;
+}
+.profile-content .click-here-btn:hover{
+    color: #8a6d3b !important;
+}
